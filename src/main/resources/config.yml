@@ -1,0 +1,23 @@
+# Page limit
+PageLimit: 5
+
+# If this is set to true, CharacterLimit is used instead of PageLimit
+CharacterCount: true
+
+# Limit amount of characters in a book
+CharacterLimit: 1280
+
+# Language
+# Placeholders:
+# %maxchar% - Maximum characters
+# %maxpages% - Maximum pages
+# %charcount% - Show the amount of characters the player tried to write to the book (Only works if CharacterCount is set to true)
+# %pagecount% - Show the amount of pages the player tried to write (Only works if CharacterCount is set to false)
+# %player% - Show the player that was using the book
+WarningCharacter: "&cWarning! Your book contains too many characters. Please keep it under %maxchar% characters"
+WarningPages: "&cWarning! Your book contains too many pages. Please keep it under %maxpages% pages"
+WarningOffHand: "&cYou are not allowed to edit a book from offhand!"
+
+# Permission booklimiter.notify must be given the player to receive notifications 
+NotifyMessagePage: "&c[BookLimiter] &8%player% tried to create a book with %pagecount% pages!"
+NotifyMessageChar: "&c[BookLimiter] &8%player% tried to write %charcount% characters to a book!"
