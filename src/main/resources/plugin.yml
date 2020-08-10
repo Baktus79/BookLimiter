@@ -1,5 +1,5 @@
 name: BookLimiter
-version: 1.0
+version: ${project.version}
 authors: [Baktus_79]
 main: no.vestlandetmc.BookLimiter.BookLimiterPlugin
 description: Limit pages in a book.
