@@ -59,7 +59,6 @@ public class BookEvent implements Listener {
 
 		if(e.getCursor().getType() == Material.WRITABLE_BOOK && e.getSlot() == 40) {
 			e.setCancelled(true);
-			player.getInventory().addItem(new ItemStack(Material.WRITABLE_BOOK));
 			e.getWhoClicked().sendMessage(ChatColor.translateAlternateColorCodes('&',warningOffHand));
 		}
 	}
